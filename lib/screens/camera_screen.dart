@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:medista_test/helper/face_detector_painter.dart';
-import 'package:medista_test/service/websocket_service.dart';
+import 'package:medista_test/services/websocket_service.dart';
 import 'package:google_mlkit_commons/google_mlkit_commons.dart';
 import 'package:google_mediapipe_face_detection/google_mediapipe_face_detection.dart';
 import 'package:camera/camera.dart';
