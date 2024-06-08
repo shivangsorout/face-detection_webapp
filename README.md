@@ -49,7 +49,12 @@ You should see the following output:
  flutter run -d {ANY_BROWSER}
  ```
 
-## Troubleshooting
+# Application Features
+- Face Detection: Utilizes the google_mediapipe_face_detection plugin to detect faces in the video feed.
+- Real-Time Video Streaming: Captures the real-time video feed from the user's webcam and streams the video data to a mock WebSocket server.
+- User Interface: A simple web interface with start/stop buttons to control the video feed and face detection. Displays the video feed with a rectangle overlay on the detected face and shows the connection status to the WebSocket server.
+
+# Troubleshooting
 
 - If the webcam is not accessible, ensure that your browser has permission to access the webcam.
 - If you encounter the following issue:
